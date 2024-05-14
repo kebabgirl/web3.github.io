@@ -1,0 +1,18 @@
+.page__about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.about__title {
+  color: rgb(67, 74, 110);
+  font-weight: 600;
+  text-align: center;
+}
