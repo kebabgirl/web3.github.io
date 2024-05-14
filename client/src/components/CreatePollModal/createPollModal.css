@@ -1,0 +1,66 @@
+.add-modal {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.add-modal__content {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  border: 1px solid rgb(189, 184, 184);
+  border-radius: 10px;
+  padding: 25px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  z-index: 100;
+}
+
+.add-modal__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 20px;
+  font-size: 15px;
+}
+
+.add-modal__body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 10px;
+}
+
+.add-modal__variants {
+  width: 100%;
+  height: 100%;
+}
+
+.add-modal__header {
+  text-align: start;
+}
+
+.add-modal__close:hover {
+  cursor: pointer;
+}
+
+.delete-icon {
+  width: 100%;
+  height: 100%;
+}
+
+.add-modal__title {
+  font-size: 20px;
+  font-weight: 500;
+}
